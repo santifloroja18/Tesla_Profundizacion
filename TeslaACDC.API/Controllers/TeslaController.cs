@@ -1,37 +1,60 @@
 namespace TeslaACDC.Controllers;
 
 using Microsoft.AspNetCore.Mvc;
-using TeslaACDC.Model;
+using TeslaACDC.Business.Interfaces;
+using TeslaACDC.Data.Models;
+
 [ApiController]
 [Route("api/[controller]")]
 public class TeslaController : ControllerBase
 {
-  [HttpPost]
-  [Route("Addition")]
-  public async Task<IActionResult> Addition(Addition addition)
+
+  private readonly IMathOp _mathOpService;
+
+  public TeslaController(IMathOp mathOpService)
   {
-    var result =  addition.number_one + addition.number_two;
-    return Ok("The sum of: " + addition.number_one + " + " + + addition.number_two + " = " + result);
+    _mathOpService = mathOpService;
+  }
+  
+  [HttpPost]
+  [Route("Sum")]
+  public async Task<IActionResult> Sum(Sum sum)
+  {
+    var resultSum = await _mathOpService.Sum(sum);
+    return Ok("The sum is equal: " + resultSum);
   }
 
   [HttpPost]
   [Route("AreaSquare")]
-  public async Task<IActionResult> AreaSquare(Square square)
+  public async Task<IActionResult> AreaSquare(AreaSquare areaSquare)
   {
-    var area = square.side * square.side;
-    return Ok("The area of ​​a square whose side measures " + square.side + " is equal to " + area);
+    var result_areaSquare = await _mathOpService.SquareArea(areaSquare);
+    return Ok("The area of ​​a quare whose side measures is equal to: " + result_areaSquare);
   }
 
-    // Tres métodos: 
+  [HttpPost]
+  [Route("AreaSquareSide")]
+  public async Task<IActionResult> AreaSquareSide(AreaSquareSide areaSquareSide)
+  {
+    var result_areaSquareSide = await _mathOpService.SquareAreaSide(areaSquareSide);
+    return Ok("The area of ​​a quare whose side measures is equal to: " + result_areaSquareSide);
+  }
+
+  [HttpPost]
+  [Route("AreaTriangle")]
+  public async Task<IActionResult> TriangleArea(TriangleArea triangleArea)
+  {
+    var result_areaTriangle = await _mathOpService.TriangleArea(triangleArea);
+    return Ok("The area of ​​a quare whose side measures is equal to: " + result_areaTriangle);
+  }
+
     /*
         1ro: debe devolver una array de albums
         2do: debe recibir dos valores y sumarlos, devolver el resultado
         3ro: debe calcular el area de un cuadrado.
-
-        EXTRA CURRICULAR
-        Crear una clase extra, y poner la lógica afuera del controlador.
         4to: Calcular area de un triangulo
-        5to: capturar con errores.
+        5to: Calcular area de un cuadrado recibiendo todos sus lados
+
     */
     
 }

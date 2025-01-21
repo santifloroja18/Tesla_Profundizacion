@@ -1,0 +1,16 @@
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\bin\Debug\net9.0\TeslaACDC.Business.deps.json
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\bin\Debug\net9.0\TeslaACDC.Business.dll
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\bin\Debug\net9.0\TeslaACDC.Business.pdb
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\obj\Debug\net9.0\TeslaACDC.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\obj\Debug\net9.0\TeslaACDC.Business.AssemblyInfoInputs.cache
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\obj\Debug\net9.0\TeslaACDC.Business.AssemblyInfo.cs
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\obj\Debug\net9.0\TeslaACDC.Business.csproj.CoreCompileInputs.cache
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\obj\Debug\net9.0\TeslaACDC.Business.sourcelink.json
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\obj\Debug\net9.0\TeslaACDC.Business.dll
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\obj\Debug\net9.0\refint\TeslaACDC.Business.dll
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\obj\Debug\net9.0\TeslaACDC.Business.pdb
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\obj\Debug\net9.0\ref\TeslaACDC.Business.dll
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\bin\Debug\net9.0\TeslaACDC.Data.dll
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\bin\Debug\net9.0\TeslaACDC.Data.pdb
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\obj\Debug\net9.0\TeslaACDC.Business.csproj.AssemblyReference.cache
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.Business\obj\Debug\net9.0\TeslaACD.E6103277.Up2Date

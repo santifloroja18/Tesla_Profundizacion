@@ -33,6 +33,29 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "TeslaACDC.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "TeslaACDC.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeslaACDC.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeslaACDC.Business.dll": {}
+        }
+      },
+      "TeslaACDC.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/TeslaACDC.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeslaACDC.Data.dll": {}
+        }
       }
     }
   },
@@ -67,11 +90,23 @@
         "microsoft.openapi.1.6.17.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "TeslaACDC.Business/1.0.0": {
+      "type": "project",
+      "path": "../TeslaACDC.Business/TeslaACDC.Business.csproj",
+      "msbuildProject": "../TeslaACDC.Business/TeslaACDC.Business.csproj"
+    },
+    "TeslaACDC.Data/1.0.0": {
+      "type": "project",
+      "path": "../TeslaACDC.Data/TeslaACDC.Data.csproj",
+      "msbuildProject": "../TeslaACDC.Data/TeslaACDC.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.OpenApi >= 9.0.0"
+      "Microsoft.AspNetCore.OpenApi >= 9.0.0",
+      "TeslaACDC.Business >= 1.0.0",
+      "TeslaACDC.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -98,7 +133,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Modulo_Profundizacion\\NIKOLA_TESLA_G1_2025_NODO-main\\TeslaACDC.Business\\TeslaACDC.Business.csproj": {
+              "projectPath": "C:\\Modulo_Profundizacion\\NIKOLA_TESLA_G1_2025_NODO-main\\TeslaACDC.Business\\TeslaACDC.Business.csproj"
+            },
+            "C:\\Modulo_Profundizacion\\NIKOLA_TESLA_G1_2025_NODO-main\\TeslaACDC.Data\\TeslaACDC.Data.csproj": {
+              "projectPath": "C:\\Modulo_Profundizacion\\NIKOLA_TESLA_G1_2025_NODO-main\\TeslaACDC.Data\\TeslaACDC.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

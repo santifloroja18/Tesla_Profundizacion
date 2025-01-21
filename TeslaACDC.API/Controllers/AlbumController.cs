@@ -1,27 +1,27 @@
 using Microsoft.AspNetCore.Mvc;
-using TeslaACDC.Model;
+using TeslaACDC.Business.Interfaces;
+using TeslaACDC.Business.Services;
+using TeslaACDC.Controllers;
+using TeslaACDC.Data.Models;
 
 [ApiController]
 [Route("api/[controller]")]
 public class AlbumController : ControllerBase{
 
+  private readonly IAlbumService _albumService;
+
+  public AlbumController(IAlbumService albumService)
+  {
+    _albumService = albumService;
+  }
+
   [HttpGet]
   [Route("GetArrayAlbums")]
-  public async Task<IActionResult> GetArrayAlbums()
+  public async Task<IActionResult> GetAlbums()
   {
-    List<Album> albums = new List<Album>();
-    albums.Add(new Album{
-      name = "I'm Still Standing",
-      year = 1998,
-      artist = "Elton John"
-    });
-    albums.Add(new Album{
-      name = "My Way",
-      year = 1969,
-      artist = "Frank Sinatra"
-    });
+    var lista = await _albumService.GetList();
 
-    return Ok(albums);
+    return Ok(lista);
   }
 
   [HttpPost]

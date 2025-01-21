@@ -31,3 +31,8 @@ C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.API\obj\Debug\
 C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.API\obj\Debug\net9.0\TeslaACDC.API.pdb
 C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.API\obj\Debug\net9.0\TeslaACDC.API.genruntimeconfig.cache
 C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.API\obj\Debug\net9.0\ref\TeslaACDC.API.dll
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.API\obj\Debug\net9.0\TeslaACDC.API.sourcelink.json
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.API\bin\Debug\net9.0\TeslaACDC.Business.dll
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.API\bin\Debug\net9.0\TeslaACDC.Data.dll
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.API\bin\Debug\net9.0\TeslaACDC.Business.pdb
+C:\Modulo_Profundizacion\NIKOLA_TESLA_G1_2025_NODO-main\TeslaACDC.API\bin\Debug\net9.0\TeslaACDC.Data.pdb
