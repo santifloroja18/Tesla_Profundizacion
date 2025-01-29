@@ -20,7 +20,7 @@ public class MathOpService : IMathOp
 
     public async Task<float> SquareAreaSide(AreaSquareSide areaSquareSide)
     {
-        var areaSquare = (areaSquareSide.side_one + areaSquareSide.side_two + areaSquareSide.side_three + areaSquareSide.side_four) / 2;
+        var areaSquare = (areaSquareSide.side_one + areaSquareSide.side_two + areaSquareSide.side_three + areaSquareSide.side_four) * 2;
         return areaSquare;
     }
 
